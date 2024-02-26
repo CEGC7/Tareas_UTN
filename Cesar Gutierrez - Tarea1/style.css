@@ -1,0 +1,86 @@
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('imagenes/fondo.jpg');
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#foto1 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+#foto2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+header {
+    /* Alinea el texto al centro */
+    text-align: center;
+    background-color: rgb(185, 205, 248);
+    border-radius: 50px;
+    color: white;
+}
+
+main {
+    text-align: center;
+}
+
+article {
+    /* Cambia el tamaño de fuente del artículo */
+    font-size: 16px;
+
+    /* Ajusta el espaciado entre líneas */
+    line-height: 1.5;
+
+    /* Añade un espaciado interno */
+    padding: 18px;
+}
+
+
+.navegador {
+    margin-left: 16px;
+    margin-right: auto;
+    text-align: center;
+
+    /* Tamaño de letra más grande */
+    font-size: 22px;
+    color: white;
+}
+
+table {
+    width: 45%;
+    margin: auto;
+    margin-top: 100px;
+    border: 1.5px solid #000;
+    text-align: center;
+    background-color: rgb(185, 205, 248);
+}
+
+ul {
+    /* Cambia el tipo de marcador */
+    list-style-type: circle;
+
+    /* Coloca el marcador dentro del espacio de sangría */
+    list-style-position: inside;
+
+    text-align: center;
+
+}
+
+footer {
+    margin-top: 150px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    background-color: rgb(185, 205, 248);
+    border-radius: 50px;
+}
