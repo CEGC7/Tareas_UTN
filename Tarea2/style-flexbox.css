@@ -1,0 +1,24 @@
+.flex-container {
+    display: flex;
+    flex-direction: row; /* Establece la dirección de los elementos flexibles en una fila */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples líneas si es necesario */
+    justify-content: space-between; /* Distribuye los elementos a lo largo del contenedor con espacio adicional entre ellos */
+    align-items: center; /* Centra los elementos verticalmente */
+    align-content: center; /* Centra el contenido verticalmente en caso de que haya múltiples líneas de contenido */
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* Estilos para los elementos flexibles */
+.flex-item {
+    background-color: lightblue;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 10px;
+    order: 1; /* Cambia el orden de los elementos flexibles */
+    flex-grow: 1; /* Define cómo los elementos flexibles deben crecer en relación con los demás */
+    flex-shrink: 1; /* Define cómo los elementos flexibles deben encogerse en relación con los demás */
+    flex-basis: auto; /* Establece el tamaño inicial de los elementos flexibles */
+    flex: 1; /* Es una abreviatura para flex-grow, flex-shrink y flex-basis */
+    align-self: stretch; /* Permite que el elemento se alinee de forma diferente al resto de los elementos */
+}
